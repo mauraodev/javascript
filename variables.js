@@ -1,25 +1,20 @@
-console.log("variables");
+console.log("variables")
 
-let string = 'ola mundo';
-
-console.log(string);
-
-const sempre = 'Vivo!';
-
-console.log(sempre);
-
-var antiga = 'Antiga';
-
-console.log(antiga);
-
-function test() {
-	console.log(sempre);
-	console.log(string);
-	let dentro = 'xyz';
-	var antigaDentro = 'xas';
+let name = 'Bob'
+let number = 10
+let boolean = true
+let array = ['bob', 'julia', 'steve']
+let object = {
+	name: 'phebe',
+	age: 23
 }
 
-test();
+console.log(name)
 
-console.log(antigaDentro);
-console.log(dentro);
+console.log(number)
+
+console.log(boolean)
+
+console.log(array)
+
+console.log(object)
