@@ -1,14 +1,29 @@
-var x = 1;
+bla = 2
+var bla
 
-if (x === 1) {
-	var x = 2;
+console.log(bla)
+
+var a, b = a = "A"
+
+console.log(b)
+
+for (var start = 1; start <= 10; start++) {
+	console.log(start)
 }
 
-bla = 2;
-var bla;
+console.log('Depois do for', start)
 
-console.log(bla);
+var x = 1
+if (x === 1) {
+	var y = 2
+}
 
-var a, b = a = "A";
+console.log('valor de x', x)
+console.log('valor de y', y)
 
-console.log(b);
+function test() {
+	var hue = 'cana'
+}
+
+test()
+console.log(hue)
